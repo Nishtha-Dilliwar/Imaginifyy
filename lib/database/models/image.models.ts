@@ -1,6 +1,6 @@
-import { transformationTypes } from "@/constants";
-import { model, models, ObjectId, Schema } from "mongoose";
-import { config, title } from "process";
+import { model, models, Schema } from "mongoose";
+import { Config } from "tailwind-merge";
+
 
 export interface IImage extends Document {
     title: string;
