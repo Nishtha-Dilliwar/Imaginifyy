@@ -1,5 +1,5 @@
 import { model, models, Schema } from "mongoose";
-import { Config } from "tailwind-merge";
+
 
 
 export interface IImage extends Document {
